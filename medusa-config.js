@@ -53,6 +53,9 @@ const plugins = [
     },
   },
   {
+    resolve: "medusa-plugin-contentful-integration",
+  },
+  {
     resolve: 'medusa-plugin-variant-images',
     options: {
       enableUI: true,
